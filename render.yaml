@@ -32,6 +32,12 @@ services:
         value: 1000          #max esecutions
       - key: N8N_RUNNERS_ENABLED
         value: false
+      - key: NODE_OPTIONS
+        value: --max-old-space-size=400
+      - key: N8N_DEFAULT_BINARY_DATA_MODE
+        value: filesystem
+      - key: EXECUTIONS_PROCESS
+        value: main
         
 
 # databases: section removed entirely
