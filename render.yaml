@@ -15,11 +15,11 @@ services:
       - key: DB_POSTGRESDB_DATABASE
         value: postgres              # Supabase default DB name
       - key: DB_POSTGRESDB_HOST
-        value: db.dtopjfzoiluhhxpwvckd.supabase.co   # ← your Supabase  host
+        value: aws-1-ap-south-1.pooler.supabase.com   # ← your Supabase  host
       - key: DB_POSTGRESDB_PORT
         value: 5432
       - key: DB_POSTGRESDB_USER
-        value: postgres              # Supabase default user
+        value: postgres.dtopjfzoiluhhxpwvckd              # Supabase default user
       - key: DB_POSTGRESDB_PASSWORD
         sync: false        # ← your Supabase DB password
       - key: DB_POSTGRESDB_SSL
