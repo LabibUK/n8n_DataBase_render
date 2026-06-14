@@ -38,6 +38,8 @@ services:
         value: filesystem
       - key: EXECUTIONS_PROCESS
         value: main
+      - key: WEBHOOK_URL
+        value: https://n8n-service-9wme.onrender.com
         
 
 # databases: section removed entirely
