@@ -23,6 +23,15 @@ services:
       - key: DB_POSTGRESDB_PASSWORD
         sync: false        # ← your Supabase DB password
       - key: DB_POSTGRESDB_SSL
-        value: true                  # Required for Supabase
+        value: true 
+      - key: EXECUTIONS_DATA_PRUNE
+        value: true
+      - key: EXECUTIONS_DATA_MAX_AGE     
+        value: 72                   #max esecution history 3days in hours
+      - key: EXECUTIONS_DATA_PRUNE_MAX_COUNT
+        value: 1000          #max esecutions
+      - key: N8N_RUNNERS_ENABLED
+        value: false
+        
 
 # databases: section removed entirely
