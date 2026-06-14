@@ -15,7 +15,7 @@ services:
       - key: DB_POSTGRESDB_DATABASE
         value: postgres              # Supabase default DB name
       - key: DB_POSTGRESDB_HOST
-        value: db.dtopjfzoiluhhxpwvckd.supabase.co   # ← your Supabase host
+        value: db.dtopjfzoiluhhxpwvckd.supabase.co   # ← your Supabase  host
       - key: DB_POSTGRESDB_PORT
         value: 5432
       - key: DB_POSTGRESDB_USER
